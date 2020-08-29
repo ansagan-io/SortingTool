@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SortingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-29T17:26:27" hostname="ansagan-Aspire-A715-71G" time="0.15">
+  <properties/>
+  <testcase name="start" classname="SortingTest" time="0.15"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+> 1 -2   33 4
+> 42
+> 1                 1
+Total numbers: 7
+The largest number: 42 (1 time(s))?[1;31m
+Start test 2?[0m
+> 1 2 2 3 4 5 5
+Total numbers: 7
+The largest number: 5 (2 time(s))?[1;31m
+Start test 3?[0m
+> 1 1 2 2 3 4 4 4
+Total numbers: 8
+The largest number: 4 (3 time(s))]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -3,6 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sorting_Tool.iml" filepath="$PROJECT_DIR$/.idea/modules/Sorting_Tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Distance/Sorting_Tool.Problems-Distance.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Distance/Sorting_Tool.Problems-Distance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Distance/Sorting_Tool.Problems-Distance.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Distance/Sorting_Tool.Problems-Distance.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Distance/Sorting_Tool.Problems-Distance.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Distance/Sorting_Tool.Problems-Distance.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Find X/Sorting_Tool.Problems-Find_X.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Find X/Sorting_Tool.Problems-Find_X.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Find X/Sorting_Tool.Problems-Find_X.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Find X/Sorting_Tool.Problems-Find_X.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Find X/Sorting_Tool.Problems-Find_X.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Find X/Sorting_Tool.Problems-Find_X.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Liquid pressure/Sorting_Tool.Problems-Liquid_pressure.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Liquid pressure/Sorting_Tool.Problems-Liquid_pressure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Liquid pressure/Sorting_Tool.Problems-Liquid_pressure.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Liquid pressure/Sorting_Tool.Problems-Liquid_pressure.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Liquid pressure/Sorting_Tool.Problems-Liquid_pressure.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Liquid pressure/Sorting_Tool.Problems-Liquid_pressure.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sorting Tool/task/Sorting_Tool.Sorting_Tool-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Sorting Tool/task/Sorting_Tool.Sorting_Tool-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sorting Tool/task/Sorting_Tool.Sorting_Tool-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Sorting Tool/task/Sorting_Tool.Sorting_Tool-task.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sorting Tool/task/Sorting_Tool.Sorting_Tool-task.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Sorting Tool/task/Sorting_Tool.Sorting_Tool-task.test.iml" />

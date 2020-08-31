@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SortingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-30T14:24:04" hostname="ansagan-Aspire-A715-71G" time="0.196">
+<testsuite name="SortingTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-31T13:53:16" hostname="ansagan-Aspire-A715-71G" time="0.235">
   <properties/>
-  <testcase name="start" classname="SortingTest" time="0.196"/>
+  <testcase name="start" classname="SortingTest" time="0.235"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 > 1 -2   33 4
@@ -43,6 +43,25 @@ Start test 7?[0m
 Total lines: 4
 The longest line:
 22222
-(1 time(s), 25%)]]></system-out>
+(1 time(s), 25%)?[1;31m
+Start test 8?[0m
+> 1 -2   333 4
+> 42
+> 1                 1
+Total numbers: 7
+Sorted data: -2 1 1 1 4 42 333 ?[1;31m
+Start test 9?[0m
+> 1 -2   333 4
+> 42
+> 1                 1
+Total numbers: 7
+Sorted data: -2 1 1 1 4 42 333 ?[1;31m
+Start test 10?[0m
+> 1111
+> 22222
+> 3
+> 44
+Total numbers: 4
+Sorted data: 3 44 1111 22222 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

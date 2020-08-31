@@ -4,29 +4,54 @@ import java.util.*;
 
 public class Main {
     final static Scanner scanner = new Scanner(System.in);
-    final static ArrayList<String> lines = new ArrayList<>();
+
     public static void main(final String[] args) {
-        if(args[0].equals("-dataType")) {
-            while (scanner.hasNextLine()) {
-                String number = scanner.nextLine();
-                lines.add(number);
-            }
-            if (args.length == 2){
-                switch (args[1]) {
-                    case "word": sortWords();
-                        break;
-                    case "long": sortLongs();
-                        break;
-                    case "line": sortLines();
-                        break;
+        try {
+            if(args[0].equals("-dataType")) {
+                if (args.length == 2){
+                    switch (args[args.length -1]) {
+                        case "long": greatLongs();
+                            break;
+                        case "line": greatLines();
+                            break;
+                        case "-sortIntegers": sortIntegers();
+                            break;
+                        default:
+                            greatWords();
+                            break;
+                    }
                 }
-            } else {
-                sortWords();
+            }else if (args[0].equals("-sortIntegers")) {
+                sortIntegers();
             }
+        } catch (IndexOutOfBoundsException e) {
+            greatWords();
+        }
+
+    }
+
+    private static void sortIntegers() {
+        ArrayList<Integer> integers = new ArrayList<>();
+        while (scanner.hasNextInt()) {
+            integers.add(scanner.nextInt());
+        }
+        System.out.println("Total numbers: " + integers.size());
+        Collections.sort(integers);
+        System.out.print("Sorted data: ");
+        for (Integer ints:integers
+             ) {
+            System.out.print(ints + " ");
         }
     }
 
-    private static void sortLines() {
+    private static void greatLines() {
+        ArrayList<String> lines = new ArrayList<>();
+
+        while (scanner.hasNextLine()) {
+            String number = scanner.nextLine();
+            lines.add(number);
+        }
+
         System.out.println("Total lines: " + lines.size());
 
         String longestLine = "";
@@ -45,7 +70,7 @@ public class Main {
             }
         }
 
-        int percent = 0;
+        int percent;
 
         try {
             percent = times * 100 / lines.size();
@@ -57,13 +82,10 @@ public class Main {
 
     }
 
-    private static void sortWords() {
+    private static void greatWords() {
         ArrayList<String> strings = new ArrayList<>();
-        for (String s : lines) {
-            Scanner scan = new Scanner(s);
-            while (scan.hasNext()){
-                strings.add(scan.next());
-            }
+        while (scanner.hasNext()){
+            strings.add(scanner.next());
         }
         System.out.println("Total words: " + strings.size());
 
@@ -83,7 +105,7 @@ public class Main {
             }
         }
 
-        int percent = 0;
+        int percent;
 
         try {
             percent = times * 100 / strings.size();
@@ -95,14 +117,12 @@ public class Main {
 
     }
 
-    private static void sortLongs() {
+    private static void greatLongs() {
         ArrayList<Long> longs = new ArrayList<>();
-        for (String s : lines) {
-            Scanner scan = new Scanner(s);
-            while (scan.hasNextLong()){
-                longs.add(scan.nextLong());
-            }
+        while (scanner.hasNextLong()){
+            longs.add(scanner.nextLong());
         }
+
         System.out.println("Total numbers: " + longs.size());
 
         int times = 0;
@@ -113,7 +133,7 @@ public class Main {
                 times++;
             }
         }
-        int percent = 0;
+        int percent;
 
         try {
             percent = times * 100 / longs.size();

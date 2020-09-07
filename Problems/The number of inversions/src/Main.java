@@ -46,26 +46,28 @@ class Main {
     }
 
     // Merge sort function
-    private static long mergeSortAndCount(long[] arr, int first, int last) {
+    private static long mergeSortAndCount(long[] arr, int l, int r) {
+
         // Keeps track of the inversion count at a
         // particular node of the recursion tree
         long count = 0;
 
-        if (first < last) {
-            int middle = (first + last) / 2;
+        if (l < r) {
+            int m = (l + r) / 2;
 
             // Total inversion count = left subarray count
             // + right subarray count + merge count
 
             // Left subarray count
-            count += mergeSortAndCount(arr, first, middle);
+            count += mergeSortAndCount(arr, l, m);
 
             // Right subarray count
-            count += mergeSortAndCount(arr, middle + 1, last);
+            count += mergeSortAndCount(arr, m + 1, r);
 
             // Merge count
-            count += mergeAndCount(arr, first, middle, last);
+            count += mergeAndCount(arr, l, m, r);
         }
+
         return count;
     }
 

@@ -12,13 +12,22 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Problems/Blacklist" />
+            <option value="$PROJECT_DIR$/Problems/Boxes are not just objects!" />
             <option value="$PROJECT_DIR$/Problems/Count the number of merge operations" />
+            <option value="$PROJECT_DIR$/Problems/Counting words" />
+            <option value="$PROJECT_DIR$/Problems/Creating a map" />
+            <option value="$PROJECT_DIR$/Problems/Creating a set" />
             <option value="$PROJECT_DIR$/Problems/Distance" />
             <option value="$PROJECT_DIR$/Problems/Find X" />
             <option value="$PROJECT_DIR$/Problems/Liquid pressure" />
             <option value="$PROJECT_DIR$/Problems/Merge all sequences" />
+            <option value="$PROJECT_DIR$/Problems/Multiset" />
             <option value="$PROJECT_DIR$/Problems/Pastry packing optimization" />
             <option value="$PROJECT_DIR$/Problems/Safe converting" />
+            <option value="$PROJECT_DIR$/Problems/Squares list" />
+            <option value="$PROJECT_DIR$/Problems/Strict superset" />
+            <option value="$PROJECT_DIR$/Problems/Symmetric difference" />
             <option value="$PROJECT_DIR$/Problems/The number of inversions" />
             <option value="$PROJECT_DIR$/Sorting Tool/task" />
             <option value="$PROJECT_DIR$/util" />

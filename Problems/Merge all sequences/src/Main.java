@@ -16,7 +16,7 @@ class Main {
         }
 
         int[] intg = new int[integers.size()];
-        for (int i=0; i < intg.length; i++) {
+        for (int i = 0; i < intg.length; i++) {
             intg[i] = integers.get(i);
         }
 
@@ -28,7 +28,7 @@ class Main {
     }
 
     private static void mergeSort(int[] integers, int left, int right) {
-        if (right <= left + 1){
+        if (right <= left + 1) {
             return;
         }
 

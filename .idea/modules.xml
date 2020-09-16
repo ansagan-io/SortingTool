@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sorting_Tool.iml" filepath="$PROJECT_DIR$/.idea/modules/Sorting_Tool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Accounts/Sorting_Tool.Problems-Accounts.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Accounts/Sorting_Tool.Problems-Accounts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Accounts/Sorting_Tool.Problems-Accounts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Accounts/Sorting_Tool.Problems-Accounts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Accounts/Sorting_Tool.Problems-Accounts.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Accounts/Sorting_Tool.Problems-Accounts.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Sorting_Tool.Problems-Blacklist.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Sorting_Tool.Problems-Blacklist.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Sorting_Tool.Problems-Blacklist.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Sorting_Tool.Problems-Blacklist.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Sorting_Tool.Problems-Blacklist.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Blacklist/Sorting_Tool.Problems-Blacklist.test.iml" />

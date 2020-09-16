@@ -7,8 +7,8 @@ public class Main {
     final static Scanner scanner = new Scanner(System.in);
 
     public static void main(final String[] args) {
-        int sortIndex = 0;
-        int dataIndex = 0;
+        int sortIndex = -1;
+        int dataIndex = -1;
         for (int i = 0; i < args.length; i++) {
             if (args[i].equals("-dataType")) {
                 dataIndex = i;
@@ -17,27 +17,32 @@ public class Main {
                 sortIndex = i;
             }
         }
+        for (int i = 4; i < args.length; i++) {
+            System.out.println("\""  + args[i] + "\" isn't a valid parameter. It's skipped");
+        }
 
-        String dataType;
-        String sortType;
+        String dataType = null;
+        String sortType = null;
 
         try {
-            if (!args[dataIndex + 1].equals("word") && !args[dataIndex + 1].equals("line") && !args[dataIndex + 1].equals("long"))
+            if (dataIndex == -1) {
                 dataType = "word";
-            else
+            } else
                 dataType = args[dataIndex + 1];
         } catch (IndexOutOfBoundsException e) {
-            dataType = "word";
+            System.out.println("No data type defined!");
+            System.exit(0);
         }
 
         try {
-            if (!args[sortIndex + 1].equals("natural") && !args[sortIndex + 1].equals("byCount")) {
+            if (sortIndex == -1) {
                 sortType = "natural";
             } else {
                 sortType = args[sortIndex + 1];
             }
         } catch (IndexOutOfBoundsException e) {
-            sortType = "natural";
+            System.out.println("No sorting type defined!");
+            System.exit(0);
         }
 
         switch (dataType) {
@@ -135,8 +140,15 @@ public class Main {
 
     private static void sortLongs(String sortType) {
         ArrayList<Long> sortedDataEntries = new ArrayList<>();
-        while (scanner.hasNextLong()) {
-            sortedDataEntries.add(scanner.nextLong());
+        while (scanner.hasNext()) {
+            String beParsed = scanner.next();
+            try {
+                long number = Long.parseLong(beParsed);
+                sortedDataEntries.add(number);
+            } catch (NumberFormatException e) {
+                System.out.println("\""  + beParsed + "\" isn't a long. It's skipped");
+            }
+
         }
         System.out.println("Total numbers: " + sortedDataEntries.size());
         Collections.sort(sortedDataEntries);

@@ -371,6 +371,13 @@ files:
 
 
   learner_created: false
+- name: src/sorting/SortingIt.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/45/stages/242/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/45/stages/242/implement">JetBrains
+    Academy</a>
+  time: Wed, 16 Sep 2020 07:14:08 UTC
 record: -1

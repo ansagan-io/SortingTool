@@ -12,8 +12,8 @@
           <option name="moduleName" value="Problems-Liquid_pressure" />
           <option name="friendPaths">
             <array>
-              <option value="$MODULE_DIR$/../../../../Problems/Liquid pressure/build/classes/kotlin/main" />
               <option value="$MODULE_DIR$/../../../../Problems/Liquid pressure/build/classes/java/main" />
+              <option value="$MODULE_DIR$/../../../../Problems/Liquid pressure/build/classes/kotlin/main" />
             </array>
           </option>
           <option name="languageVersion" value="1.3" />

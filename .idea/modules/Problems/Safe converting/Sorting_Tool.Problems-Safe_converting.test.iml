@@ -12,8 +12,8 @@
           <option name="moduleName" value="Problems-Safe_converting" />
           <option name="friendPaths">
             <array>
-              <option value="$MODULE_DIR$/../../../../Problems/Safe converting/build/classes/kotlin/main" />
               <option value="$MODULE_DIR$/../../../../Problems/Safe converting/build/classes/java/main" />
+              <option value="$MODULE_DIR$/../../../../Problems/Safe converting/build/classes/kotlin/main" />
             </array>
           </option>
           <option name="languageVersion" value="1.3" />

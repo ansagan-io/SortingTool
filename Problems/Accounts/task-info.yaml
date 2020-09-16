@@ -4,6 +4,15 @@ files:
   visible: true
   text: // write your class here
   learner_created: false
+- name: src/Test.java
+  visible: true
+  learner_created: true
+- name: src/Funvtio.java
+  visible: true
+  learner_created: true
+- name: src/lhbkjhv.java
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/2942
 status: Solved
 record: -1
